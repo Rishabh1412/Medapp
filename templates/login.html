@@ -45,32 +45,32 @@
     </style>
 </head>
 <body>
-    <div class="container py-5 px-3 rounded shadow">
-    <div class="title d-flex justify-content-between px-5">
-        
-        <h2 class="">Login</h2>
-        <a href="{{ url_for('home_page') }}"><p class="back"><i class="fa-solid fa-arrow-left "></i></p></a>
-        
-    </div>
-    <form class="my_card p-5">
-        <div class="mb-3 ">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" placeholder="Your email" autofocus class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <div class="container py-5 px-3 rounded shadow ">
+        <div class="title d-flex justify-content-between px-5">
+            
+            <h2 class="">Login</h2>
+            <a href="{{ url_for('home_page') }}"><p class="back"><i class="fa-solid fa-arrow-left "></i></p></a>
+            
         </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-            <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
-            <!-- <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
-        </div>
-        <div class="d-flex justify-content-start">
-            <button type="submit" class="btn btn-primary">Login</button>
-            <p class="px-2 pt-2">Don't have an account? <a href="{{ url_for('sign_up') }}">Signup</a></p>
-        </div>
-    </form>
+        <form class="my_card p-5">
+            <div class="mb-3 ">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" placeholder="Your email" autofocus class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
+                <!-- <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+            </div>
+            <div class="d-flex justify-content-start">
+                <button type="submit" class="btn btn-primary">Login</button>
+                <p class="px-2 pt-2">Don't have an account? <a href="{{ url_for('sign_up') }}">Signup</a></p>
+            </div>
+        </form>
     </div>
     
 </body>
